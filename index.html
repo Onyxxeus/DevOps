@@ -3,10 +3,79 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Linux commando's | DevOps</title>
+        <style>
+            * { box-sizing: border-box; }
+
+            html { background: #f3f6fa; }
+
+            body {
+                max-width: 800px;
+                margin: 48px auto;
+                padding: 32px 40px;
+                border: 1px solid #e1e7ef;
+                border-radius: 16px;
+                background: #fff;
+                color: #263449;
+                font-family: "Segoe UI", Arial, sans-serif;
+                line-height: 1.65;
+                box-shadow: 0 12px 40px #2035520a;
+            }
+
+            header {
+                margin-bottom: 32px;
+                padding-bottom: 24px;
+                border-bottom: 2px solid #e8eef5;
+            }
+
+            header span {
+                color: #52718f;
+                font-size: 12px;
+                font-weight: 700;
+                letter-spacing: 0.14em;
+                text-transform: uppercase;
+            }
+
+            header h1 {
+                margin: 8px 0;
+                color: #172b44;
+                font-size: clamp(26px, 5vw, 36px);
+                line-height: 1.2;
+                letter-spacing: -0.03em;
+            }
+
+            header p { margin: 0; color: #65758a; }
+
+            body > h1 {
+                margin: 28px 0 8px;
+                color: #216a72;
+                font-family: Consolas, "Courier New", monospace;
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            body > h1::before { content: "$ "; color: #96b6bb; }
+
+            body > p {
+                margin: 0;
+                padding-bottom: 20px;
+                border-bottom: 1px solid #edf1f6;
+                font-size: 15px;
+            }
+
+            body > p:last-child { padding-bottom: 0; border-bottom: 0; }
+
+            @media (max-width: 600px) {
+                body { margin: 16px; padding: 24px; border-radius: 12px; }
+            }
+        </style>
     </head>
     <body>
-        Test
+        <header>
+            <span>DevOps / Naslagwerk</span>
+            <h1>Linux commando's</h1>
+            <p>De belangrijkste commando's voor de terminal, op een rij.</p>
+        </header>
         <h1>Nano</h1>
         <p>nano = opent een bestand in een teksteditor</p>
         <h1>Echo</h1>
